@@ -1,3 +1,5 @@
+//testing github
+
 const generatePlayerBoard = (numberOfRows,numberOfColumns) => {
     let board = [];
     for (let rowsIndex=0;rowsIndex<numberOfRows;rowsIndex++){
@@ -81,7 +83,7 @@ const printBoard = board => {
 };
 
 let playerBoard = generatePlayerBoard(3,4);
-let bombBoard = generateBombBoard(3,4,5);
+bombBoard = generateBombBoard(3,4,5);
 
 console.log('Player Board is: ');
 printBoard(playerBoard);
